@@ -1,0 +1,18 @@
+.footer {
+  height: auto;
+  padding: 50px 0;
+  background-color: rgba(25,25,25,1);
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.footer h3 {
+  color: rgba(200,200,200,1.0);
+}
+
+.fab {
+  color: #1DDD88;
+  font-size: 32px;
+  padding: 0 10px;
+}

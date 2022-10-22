@@ -1,0 +1,44 @@
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.container h1 {
+  color: white;
+  text-shadow: 3px 3px 7px black;
+  margin: 0;
+}
+
+.container p {
+  color: white;
+  margin: 16px 0 32px 0;
+  text-shadow: 3px 3px 7px black;
+
+  /*padding: 0 0 8px 0;*/
+}
+
+.container a {
+  color: white;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.container-cards {
+  display: block;
+  text-align: center;
+  padding: 40px;
+}
+
+.container-cards h2 {
+  margin: 0 0 40px 0;
+}
